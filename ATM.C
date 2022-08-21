@@ -51,13 +51,14 @@ case 3:printf("choose\n1:saving account\n2:current account\n3:deposite account\n
        scanf("%ld",&amount);
        if(balance<amount)
        balance -=amount;
-       printf("balance=%ld",balance\n);
+       printf("balance=%ld\n",balance);
        break;
 case 4:printf("1:saving\t2:current");
        printf("enter deposite amount\ndeposite per transaction limit:200000\n");
        scanf("%ld",&c);
        scanf("%ld",&damount);
        amount+=damount;
+	break;
 case 5:printf("pin change\n");
        match:printf("enter new pin");
        scanf("%ld",&pin2);
